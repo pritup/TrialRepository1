@@ -1,0 +1,100 @@
+[
+  {
+    "id": "this-is-a-feature-file",
+    "description": "",
+    "name": "This is a Feature file",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-is-a-feature-file;application-scenario",
+        "description": "",
+        "name": "Application Scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 30516026094,
+              "status": "passed"
+            },
+            "name": "User is navigated to \"http://beta-qualitree.yapmo.com/\" application",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://beta-qualitree.yapmo.com/",
+                  "offset": 22
+                }
+              ],
+              "location": "Sample1.LaunchApp(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 332707520,
+              "status": "passed"
+            },
+            "name": "Value \"pritup@qualitreeinc.com\" is entered in Username Text field",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "pritup@qualitreeinc.com",
+                  "offset": 7
+                }
+              ],
+              "location": "Sample1.EnterCredentials_Email(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 118448457,
+              "status": "passed"
+            },
+            "name": "Value \"Test@1234\" is entered in Password Text field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@1234",
+                  "offset": 7
+                }
+              ],
+              "location": "Sample1.EnterCredentials_Password(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5407117448,
+              "status": "passed"
+            },
+            "name": "Click on Login button",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "location": "Sample1.ClickLoginButton()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11133753006,
+              "status": "passed"
+            },
+            "name": "User is navigated to the application homepage",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "Sample1.imessupwithit()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com\\test\\cucumberproject\\MavenProject\\FeatureFile.feature"
+  }
+]
